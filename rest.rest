@@ -1,0 +1,30 @@
+GET http://localhost:5000/api/todos
+
+###
+POST http://localhost:5000/api/todos
+Content-Type: application/json
+
+{
+    "action": "Dit is een actie"
+}
+###
+DELETE http://localhost:5000/api/todos/5f89df9d05c7064d202b6980
+
+
+###
+GET http://localhost:8000/specializationStructure
+Accept: application/json
+
+###
+GET http://localhost:8000/getAllSpecializationsFromCertainRootSpecialization/1
+Accept: application/json
+
+
+###
+POST http://127.0.0.1:8000/api/getMatchingCityList
+Content-Type: application/json
+Accept: application/json
+
+{
+    "input": "b 88"
+}
